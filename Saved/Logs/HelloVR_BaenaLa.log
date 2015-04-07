@@ -1,0 +1,611 @@
+﻿Log file open, 04/05/15 19:10:03
+LogInit:Display: Running engine for game: HelloVR_BaenaLa
+LogInit: Version: 4.7.1-2462028+++depot+UE4-Releases+4.7
+LogInit: API Version: 2455222
+LogInit: Compiled (64-bit): Feb 26 2015 07:49:00
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.7
+LogInit: Command line: 
+LogInit: Base directory: C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2015.04.06-02.10.03:712][  0]LogTaskGraph: Started task graph with 3 named threads and 8 total threads.
+[2015.04.06-02.10.03:799][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.04.06-02.10.03:813][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.04.06-02.10.03:823][  0]LogInit: Object subsystem initialized
+[2015.04.06-02.10.03:825][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2015.04.06-02.10.03:825][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/CS210/Documents/Unreal Projects/HelloVR_BaenaJoseph/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.04.06-02.10.03:825][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.04.06-02.10.03:825][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/CS210/Documents/Unreal Projects/HelloVR_BaenaJoseph/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.04.06-02.10.03:825][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.04.06-02.10.03:825][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/CS210/Documents/Unreal Projects/HelloVR_BaenaJoseph/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.04.06-02.10.03:825][  0]LogInit: Selected Device Profile: [Windows]
+[2015.04.06-02.10.03:825][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.04.06-02.10.03:832][  0]LogInit: Computer: CS210-WS-07
+[2015.04.06-02.10.03:832][  0]LogInit: User: CS210
+[2015.04.06-02.10.03:832][  0]LogInit: CPU Page size=4096, Cores=6
+[2015.04.06-02.10.03:832][  0]LogInit: High frequency timer resolution =3.215234 MHz
+[2015.04.06-02.10.03:832][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx) Virtual=8192.0GB
+[2015.04.06-02.10.03:833][  0]LogMemory: Platform Memory Stats for Windows
+[2015.04.06-02.10.03:833][  0]LogMemory: Process Physical Memory: 49.53 MB used, 49.53 MB peak
+[2015.04.06-02.10.03:833][  0]LogMemory: Process Virtual Memory: 29.62 MB used, 29.62 MB peak
+[2015.04.06-02.10.03:833][  0]LogMemory: Physical Memory: 3583.63 MB used, 16271.58 MB total
+[2015.04.06-02.10.03:833][  0]LogMemory: Virtual Memory: 281.80 MB used, 8388608.00 MB total
+[2015.04.06-02.10.03:907][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 980 (Feature Level 11_0)
+[2015.04.06-02.10.03:907][  0]LogD3D11RHI: Adapter has 3972MB of dedicated video memory, 0MB of dedicated system memory, and 7879MB of shared system memory, 1 output[s]
+[2015.04.06-02.10.03:907][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.04.06-02.10.03:926][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.04.06-02.10.03:941][  0]LogD3D11RHI: Async texture creation enabled
+[2015.04.06-02.10.03:996][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2015.04.06-02.10.04:123][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.04.06-02.10.06:411][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.04.06-02.10.06:953][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.04.06-02.10.07:042][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.04.06-02.10.07:084][  0]LogDerivedDataCache: Loaded boot cache 0.04s 39MB C:/Users/CS210/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.04.06-02.10.07:084][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/CS210/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc
+[2015.04.06-02.10.07:084][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/CS210/Documents/Unreal Projects/HelloVR_BaenaJoseph/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.04.06-02.10.07:084][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.04.06-02.10.07:197][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.04.06-02.10.07:208][  0]LogDerivedDataCache: Using Local data cache path C:/Users/CS210/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.04.06-02.10.07:520][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.04.06-02.10.07:520][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.04.06-02.10.07:926][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.04.06-02.10.07:990][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2015.04.06-02.10.08:710][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.04.06-02.10.08:907][  0]SourceControl: Info Source control is disabled
+[2015.04.06-02.10.08:907][  0]SourceControl: Info Source control is disabled
+[2015.04.06-02.10.08:907][  0]SourceControl: Info Source control is disabled
+[2015.04.06-02.10.08:907][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.04.06-02.10.08:907][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.04.06-02.10.08:915][  0]SourceControl: Info Source control is disabled
+[2015.04.06-02.10.09:065][  0]LogObj: 24231 objects as part of root set at end of initial load.
+[2015.04.06-02.10.09:065][  0]LogUObjectAllocator: 5136440 out of 0 bytes used by permanent object pool.
+[2015.04.06-02.10.09:135][  0]LogEngine: Initializing Engine...
+[2015.04.06-02.10.09:137][  0]LogHMD:Warning: HMD Oculus Rift DK2, Monitor , res = 1920 x 1080, windowPos = {0, 0}
+[2015.04.06-02.10.09:138][  0]LogHMD: Oculus plugin initialized. Version: 4.7.1-2462028+++depot+UE4-Releases+4.7, LibOVR: 0.4.4, built Feb 26 2015, 07:50:32
+[2015.04.06-02.10.09:291][  0]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.04.06-02.10.09:327][  0]LogInit: FAudioDevice initialized.
+[2015.04.06-02.10.09:378][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.04.06-02.10.09:401][  0]LogDerivedDataCache: Saved boot cache 0.02s 39MB C:/Users/CS210/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.04.06-02.10.09:408][  0]LogInit: Texture streaming: Enabled
+[2015.04.06-02.10.09:486][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.04.06-02.10.09:486][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.7.1-2462028+++depot+UE4-Releases+4.7
+[2015.04.06-02.10.09:486][  0]LogAnalytics: ET APIKey = Rocket.Release. DataRouterUploadURL = https://datarouter-public-service-gamedev.ol.epicgames.net/datarouter/api/v1/public/data. AppVersion = 4.7.1-2462028+++depot+UE4-Releases+4.7
+[2015.04.06-02.10.09:486][  0]LogAnalytics: SetUserId 050ef119432e2888c27f10874b78eb00|83c1ba066a5e43c3ba86cc1a39081841|7b974803-410d-47e8-9f61-c0df8cb04ac4
+[2015.04.06-02.10.09:486][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
+[2015.04.06-02.10.09:508][  0]LogInit: Transaction tracking system initialized
+[2015.04.06-02.10.09:643][  0]BlueprintLog: New page: Editor Load
+[2015.04.06-02.10.09:673][  0]LogAssetRegistry: FAssetRegistry took 0.0100 seconds to start up
+[2015.04.06-02.10.09:673][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.04.06-02.10.10:262][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.04.06-02.10.10:623][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.04.06-02.10.10:913][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Regular.ttf'
+[2015.04.06-02.10.10:913][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Bold.ttf'
+[2015.04.06-02.10.10:917][  0]LogConsoleResponse:Display: 
+[2015.04.06-02.10.11:055][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.04.06-02.10.11:171][  0]SourceControl: Info Source control is disabled
+[2015.04.06-02.10.11:171][  0]Cmd: MAP LOAD FILE="../../../../../../Users/CS210/Documents/Unreal Projects/HelloVR_BaenaJoseph/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.04.06-02.10.11:176][  0]LightingResults: New page: Lighting Build
+[2015.04.06-02.10.11:186][  0]MapCheck: New page: Map Check
+[2015.04.06-02.10.11:186][  0]LightingResults: New page: Lighting Build
+[2015.04.06-02.10.11:197][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000163D1760
+[2015.04.06-02.10.12:006][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.04.06-02.10.12:006][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.04.06-02.10.12:007][  0]Cmd: MAP CHECKDEP
+[2015.04.06-02.10.12:007][  0]MapCheck: New page: Minimal_Default - Apr 5, 2015, 12:10:12 PM
+[2015.04.06-02.10.12:085][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 78.349ms to complete.
+[2015.04.06-02.10.12:085][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.914
+[2015.04.06-02.10.12:225][  0]LogCollectionManager: Loaded 0 collections in 0.001344 seconds
+[2015.04.06-02.10.12:237][  0]LogContentBrowser: Native class hierarchy populated in 0.0119 seconds. Added 1696 classes and 261 folders.
+[2015.04.06-02.10.12:266][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0017 seconds. Added 1 classes and 2 folders.
+[2015.04.06-02.10.12:311][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.04.06-02.10.12:312][  0]LogSlate:Warning: Failed to load font data from 'Veranda'
+[2015.04.06-02.10.12:317][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.04.06-02.10.12:341][  0]LogLoad: Full Startup: 9.64 seconds (BP compile: 0.07 seconds)
+[2015.04.06-02.10.12:380][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Props/Materials'
+[2015.04.06-02.10.12:547][  0]LogRenderer:Warning: Reallocating scene render targets to support 32x32 (Frame:2).
+[2015.04.06-02.10.12:733][  0]LogRenderer:Warning: Reallocating scene render targets to support 1616x808 (Frame:5).
+[2015.04.06-02.10.13:015][  6]LogAssetRegistry: Asset discovery search completed in 3.3530 seconds
+[2015.04.06-02.10.28:795][587]Cmd: MAP LOAD FILE="../../../../../../Users/CS210/Documents/Unreal Projects/HelloVR_BaenaJoseph/Content/CornellBox.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.04.06-02.10.28:859][587]LightingResults: New page: Lighting Build
+[2015.04.06-02.10.28:939][587]LoadErrors: New page: Loading map: CornellBox.umap
+[2015.04.06-02.10.28:941][587]MapCheck: New page: Map Check
+[2015.04.06-02.10.28:941][587]LightingResults: New page: Lighting Build
+[2015.04.06-02.10.28:953][587]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000C969BC0
+[2015.04.06-02.10.29:243][587]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.04.06-02.10.29:243][587]LogAIModule: Creating AISystem for world CornellBox
+[2015.04.06-02.10.29:291][587]Cmd: MAP CHECKDEP
+[2015.04.06-02.10.29:292][587]MapCheck: New page: CornellBox - Apr 5, 2015, 12:10:29 PM
+[2015.04.06-02.10.29:393][587]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 101.475ms to complete.
+[2015.04.06-02.10.29:393][587]LogFileHelpers: Loading map 'CornellBox' took 0.602
+[2015.04.06-02.10.35:646][281]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Floor5)
+[2015.04.06-02.10.40:145][591]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_WallLeft4)
+[2015.04.06-02.10.44:278][904]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Audio'
+[2015.04.06-02.10.44:984][939]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Maps'
+[2015.04.06-02.10.45:786][ 20]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Materials'
+[2015.04.06-02.10.55:240][668]LogTexture:Display: Building textures: T_Concrete_Grime_D (AutoDXT)
+[2015.04.06-02.10.57:422][668]LogMaterial: Missing cached shader map for material M_Concrete_Grime, compiling. 
+[2015.04.06-02.11.07:459][472]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Blueprints'
+[2015.04.06-02.11.08:097][521]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Architecture'
+[2015.04.06-02.11.11:038][750]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/HDRI'
+[2015.04.06-02.11.11:764][820]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Maps'
+[2015.04.06-02.11.12:354][873]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Materials'
+[2015.04.06-02.11.15:695][105]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Audio'
+[2015.04.06-02.11.27:652][ 11]Cmd: TRANSACTION UNDO
+[2015.04.06-02.11.27:652][ 11]LogEditorTransaction: Undo Create Actors
+[2015.04.06-02.11.29:742][158]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Floor5)
+[2015.04.06-02.11.38:044][835]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2015.04.06-02.12.02:813][208]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Props/Materials'
+[2015.04.06-02.12.06:053][539]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Materials'
+[2015.04.06-02.12.11:389][917]LogTexture:Display: Building textures: T_Rock_Marble_Polished_D (AutoDXT)
+[2015.04.06-02.12.12:976][917]LogMaterial: Missing cached shader map for material M_Rock_Marble_Polished, compiling. 
+[2015.04.06-02.12.17:659][299]LogTexture:Display: Building textures: T_Brick_Clay_New_D (AutoDXT)
+[2015.04.06-02.12.20:296][299]LogTexture:Display: Building textures: T_Brick_Clay_New_M (AutoDXT)
+[2015.04.06-02.12.22:942][299]LogTexture:Display: Building textures: T_Brick_Clay_New_N (BC5)
+[2015.04.06-02.12.23:407][299]LogMaterial: Missing cached shader map for material M_Brick_Clay_New, compiling. 
+[2015.04.06-02.12.25:247][464]LogEditorViewport: Clicking Background
+[2015.04.06-02.12.26:899][608]LogEditorViewport: Clicking Background
+[2015.04.06-02.12.34:481][329]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Floor5)
+[2015.04.06-02.12.35:264][377]Cmd: TRANSACTION UNDO
+[2015.04.06-02.12.35:264][377]LogEditorTransaction: Undo Clicking on Actors
+[2015.04.06-02.12.36:347][452]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Floor5)
+[2015.04.06-02.12.36:625][472]Cmd: TRANSACTION UNDO
+[2015.04.06-02.12.36:625][472]LogEditorTransaction: Undo Clicking on Actors
+[2015.04.06-02.12.37:032][512]Cmd: TRANSACTION UNDO
+[2015.04.06-02.12.37:032][512]LogEditorTransaction: Undo Create Actors
+[2015.04.06-02.12.37:038][512]LogActorComponent: ~FComponentReregisterContext: (/Game/CornellBox.CornellBox:PersistentLevel.ModelComponent_13) Component already registered.
+[2015.04.06-02.12.37:429][549]Cmd: TRANSACTION UNDO
+[2015.04.06-02.12.37:429][549]LogEditorTransaction: Undo Create Actors
+[2015.04.06-02.12.37:433][549]LogActorComponent: ~FComponentReregisterContext: (/Game/CornellBox.CornellBox:PersistentLevel.ModelComponent_13) Component already registered.
+[2015.04.06-02.12.37:929][596]Cmd: TRANSACTION UNDO
+[2015.04.06-02.12.37:929][596]LogEditorTransaction: Undo Clicking Background
+[2015.04.06-02.12.38:654][635]Cmd: TRANSACTION UNDO
+[2015.04.06-02.12.38:654][635]LogEditorTransaction: Undo Select Brush Surface
+[2015.04.06-02.12.39:554][713]Cmd: TRANSACTION UNDO
+[2015.04.06-02.12.39:554][713]LogEditorTransaction: Undo Clicking Background
+[2015.04.06-02.12.39:938][735]Cmd: TRANSACTION UNDO
+[2015.04.06-02.12.39:938][735]LogEditorTransaction: Undo Select Brush Surface
+[2015.04.06-02.12.40:473][769]Cmd: TRANSACTION UNDO
+[2015.04.06-02.12.40:473][769]LogEditorTransaction: Undo Select Brush Surface
+[2015.04.06-02.12.40:769][785]Cmd: TRANSACTION UNDO
+[2015.04.06-02.12.40:769][785]LogEditorTransaction: Undo Select Brush Surface
+[2015.04.06-02.12.40:948][796]Cmd: TRANSACTION UNDO
+[2015.04.06-02.12.40:948][796]LogEditorTransaction: Undo Create Actors
+[2015.04.06-02.12.40:953][796]LogActorComponent: ~FComponentReregisterContext: (/Game/CornellBox.CornellBox:PersistentLevel.ModelComponent_13) Component already registered.
+[2015.04.06-02.12.43:599][ 30]LogEditorViewport: Clicking Background
+[2015.04.06-02.12.45:814][206]LogEditorViewport: Clicking Background
+[2015.04.06-02.12.52:846][791]LogEditorActor: Deleted Actor: Brush
+[2015.04.06-02.12.52:866][791]LogEditorActor: Deleted 1 Actors (0.021 secs)
+[2015.04.06-02.12.56:526][145]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2015.04.06-02.13.01:091][512]LogEditorViewport: Clicking Background
+[2015.04.06-02.13.16:592][729]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Floor5)
+[2015.04.06-02.13.38:010][338]LogEditorViewport: Clicking Background
+[2015.04.06-02.13.39:329][472]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_WallBack5)
+[2015.04.06-02.13.40:309][536]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_WallBack5)
+[2015.04.06-02.13.41:043][583]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight5)
+[2015.04.06-02.13.53:632][514]LogEditorViewport: Clicking Background
+[2015.04.06-02.13.55:036][637]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CornellBox" FILE="../../../../../../Users/CS210/Documents/Unreal Projects/HelloVR_BaenaJoseph/Content/CornellBox.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.04.06-02.13.55:169][637]LogSavePackage: Save=109.006683ms
+[2015.04.06-02.13.55:169][637]LogSavePackage: Moving '../../../../../../Users/CS210/Documents/Unreal Projects/HelloVR_BaenaJoseph/Saved/CornellBox0E01A5CF4DDF88A2299E35BE68A20E33.tmp' to '../../../../../../Users/CS210/Documents/Unreal Projects/HelloVR_BaenaJoseph/Content/CornellBox.umap'
+[2015.04.06-02.13.55:228][637]LogFileHelpers: Saving map 'CornellBox' took 0.309
+[2015.04.06-02.13.55:978][710]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CornellBox" FILE="../../../../../../Users/CS210/Documents/Unreal Projects/HelloVR_BaenaJoseph/Content/CornellBox.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.04.06-02.13.56:073][710]LogSavePackage: Save=73.181297ms
+[2015.04.06-02.13.56:073][710]LogSavePackage: Moving '../../../../../../Users/CS210/Documents/Unreal Projects/HelloVR_BaenaJoseph/Saved/CornellBox3259C874455AA541B7A03080A75A5420.tmp' to '../../../../../../Users/CS210/Documents/Unreal Projects/HelloVR_BaenaJoseph/Content/CornellBox.umap'
+[2015.04.06-02.13.57:314][837]MapCheck: New page: Map Check
+[2015.04.06-02.13.57:326][837]Cmd: MAP REBUILD ALLVISIBLE
+[2015.04.06-02.13.57:326][837]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2015.04.06-02.13.57:361][837]LightingResults: New page: Lighting Build - Apr 5, 2015, 12:13:57 PM
+[2015.04.06-02.14.02:077][837]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2015.04.06-02.14.02:077][837]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2015.04.06-02.14.02:078][837]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2015.04.06-02.14.02:078][837]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2015.04.06-02.14.02:078][837]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2015.04.06-02.14.02:078][837]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2015.04.06-02.14.02:281][837]LogEditorBuildUtils: Build time 0:00:04
+[2015.04.06-02.14.02:287][837]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Basic_Wall, compiling. 
+[2015.04.06-02.14.02:294][837]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Basic_Wall, compiling. 
+[2015.04.06-02.14.02:407][839]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Concrete_Grime, compiling. 
+[2015.04.06-02.14.02:421][839]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Concrete_Grime, compiling. 
+[2015.04.06-02.14.02:467][840]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Brick_Clay_New, compiling. 
+[2015.04.06-02.14.02:470][840]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Brick_Clay_New, compiling. 
+[2015.04.06-02.14.04:984][978]Job is a success!
+[2015.04.06-02.14.05:118][979]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT)
+[2015.04.06-02.14.05:130][979]LogTexture:Display: Building textures: LQ_Lightmap_0_4 (DXT1)
+[2015.04.06-02.14.05:138][979]LogTexture:Display: Building textures: HQ_Lightmap0_4 (AutoDXT)
+[2015.04.06-02.14.05:164][979]LogTexture:Display: Building textures: LQ_Lightmap_1_3 (DXT1)
+[2015.04.06-02.14.05:171][979]LogTexture:Display: Building textures: HQ_Lightmap1_3 (AutoDXT)
+[2015.04.06-02.14.05:190][979]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1)
+[2015.04.06-02.14.05:199][979]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT)
+[2015.04.06-02.14.05:227][979]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2015.04.06-02.14.05:231][979]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (BGRA8)
+[2015.04.06-02.14.05:237][979]LogTexture:Display: Building textures: ShadowMapTexture2D_1 (BGRA8)
+[2015.04.06-02.14.05:244][979]LogTexture:Display: Building textures: ShadowMapTexture2D_2 (BGRA8)
+[2015.04.06-02.14.05:251][979]LogTexture:Display: Building textures: ShadowMapTexture2D_3 (BGRA8)
+[2015.04.06-02.14.05:340][979]Lightmass on CS210-WS-07: 1.34 sec total, 110 ms importing, 2 ms setup, 529 ms photons, 693 ms processing, 0 ms extra exporting [59/59 mappings]. Threads: 7.04 sec total, 1.76 sec processing.
+[2015.04.06-02.14.05:446][979]LogStaticLightingSystem: Illumination: 8.06 sec (169 ms encoding lightmaps)
+[2015.04.06-02.14.05:446][979]LogStaticLightingSystem: Lightmap texture memory:  0.3 MB (0.3 MB streaming, 0.0 MB non-streaming), 8 textures
+[2015.04.06-02.14.05:446][979]LogStaticLightingSystem: Shadowmap texture memory: 0.5 MB (0.5 MB streaming, 0.0 MB non-streaming), 4 textures
+[2015.04.06-02.14.06:084][980]Cmd: MAP CHECK NOTIFYRESULTS
+[2015.04.06-02.14.06:084][980]MapCheck: New page: CornellBox - Apr 5, 2015, 12:14:06 PM
+[2015.04.06-02.14.06:105][980]MapCheck:Warning: Warning SM_Ceiling3 'Shape_Cube' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.04.06-02.14.06:106][980]MapCheck:Warning: Warning SM_Ceiling2 'Shape_Cube' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.04.06-02.14.06:106][980]MapCheck:Warning: Warning SM_Ceiling 'Shape_Cube' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.04.06-02.14.06:106][980]MapCheck:Warning: Warning SM_Ceiling4 'Shape_Cube' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.04.06-02.14.06:107][980]MapCheck:Warning: Warning SM_Ceiling5 'Shape_Cube' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.04.06-02.14.06:107][980]MapCheck:Warning: Warning SM_Ceiling6 'Shape_Cube' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.04.06-02.14.06:107][980]MapCheck:Warning: Warning SM_Ceiling7 'Shape_Cube' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.04.06-02.14.06:107][980]MapCheck:Warning: Warning SM_Floor 'Shape_Cube' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.04.06-02.14.06:108][980]MapCheck:Warning: Warning SM_Floor2 'Shape_Cube' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.04.06-02.14.06:108][980]MapCheck:Warning: Warning SM_Floor3_8 'Shape_Cube' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.04.06-02.14.06:108][980]MapCheck:Warning: Warning SM_Floor4 'Shape_Cube' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.04.06-02.14.06:108][980]MapCheck:Warning: Warning SM_Floor5 'Shape_Cube' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.04.06-02.14.06:112][980]MapCheck:Warning: Warning SM_Floor6 'Shape_Cube' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.04.06-02.14.06:112][980]MapCheck:Warning: Warning SM_Floor7 'Shape_Cube' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.04.06-02.14.06:113][980]MapCheck:Warning: Warning SM_WallBack 'Shape_Cube' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.04.06-02.14.06:113][980]MapCheck:Warning: Warning SM_WallBack2 'Shape_Cube' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.04.06-02.14.06:113][980]MapCheck:Warning: Warning SM_WallBack3 'Shape_Cube' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.04.06-02.14.06:113][980]MapCheck:Warning: Warning SM_WallBack4 'Shape_Cube' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.04.06-02.14.06:113][980]MapCheck:Warning: Warning SM_WallBack5 'Shape_Cube' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.04.06-02.14.06:114][980]MapCheck:Warning: Warning SM_WallBack6 'Shape_Cube' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.04.06-02.14.06:114][980]MapCheck:Warning: Warning SM_WallBack7 'Shape_Cube' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.04.06-02.14.06:114][980]MapCheck:Warning: Warning SM_WallLeft 'Shape_Cube' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.04.06-02.14.06:114][980]MapCheck:Warning: Warning SM_WallLeft2 'Shape_Cube' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.04.06-02.14.06:114][980]MapCheck:Warning: Warning SM_WallLeft3 'Shape_Cube' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.04.06-02.14.06:114][980]MapCheck:Warning: Warning SM_WallLeft4 'Shape_Cube' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.04.06-02.14.06:114][980]MapCheck:Warning: Warning SM_WallLeft5 'Shape_Cube' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.04.06-02.14.06:115][980]MapCheck:Warning: Warning SM_WallLeft6 'Shape_Cube' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.04.06-02.14.06:115][980]MapCheck:Warning: Warning SM_WallLeft7 'Shape_Cube' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.04.06-02.14.06:115][980]MapCheck:Warning: Warning SM_WallRight 'Shape_Cube' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.04.06-02.14.06:115][980]MapCheck:Warning: Warning SM_WallRight2 'Shape_Cube' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.04.06-02.14.06:115][980]MapCheck:Warning: Warning SM_WallRight3 'Shape_Cube' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.04.06-02.14.06:115][980]MapCheck:Warning: Warning SM_WallRight4 'Shape_Cube' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.04.06-02.14.06:116][980]MapCheck:Warning: Warning SM_WallRight5 'Shape_Cube' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.04.06-02.14.06:116][980]MapCheck:Warning: Warning SM_WallRight6 'Shape_Cube' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.04.06-02.14.06:116][980]MapCheck:Warning: Warning SM_WallRight7 'Shape_Cube' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.04.06-02.14.06:243][980]MapCheck: Info Map check complete: 0 Error(s), 35 Warning(s), took 159.001ms to complete.
+[2015.04.06-02.14.08:584][135]LogSavePackage: Save=102.792519ms
+[2015.04.06-02.14.08:584][135]LogSavePackage: Moving '../../../../../../Users/CS210/Documents/Unreal Projects/HelloVR_BaenaJoseph/Saved/UEDPCCornellBox71AFF71B4FFBC01095C6D8A1C347D2CE.tmp' to '../../../../../../Users/CS210/Documents/Unreal Projects/HelloVR_BaenaJoseph/Saved/Autosaves/Game/UEDPCCornellBox.umap'
+[2015.04.06-02.18.01:662][142]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight5)
+[2015.04.06-02.18.18:367][466]LogTexture:Display: Building textures: T_Ceramic_Tile_M (DXT1)
+[2015.04.06-02.18.19:134][466]LogTexture:Display: Building textures: T_Ceramic_Tile_N (BC5)
+[2015.04.06-02.18.19:495][466]LogMaterial: Missing cached shader map for material M_Ceramic_Tile_Checker, compiling. 
+[2015.04.06-02.18.20:543][548]LogEditorViewport: Clicking Background
+[2015.04.06-02.18.52:046][713]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Floor6)
+[2015.04.06-02.18.55:205][944]LogEditorViewport: Clicking Background
+[2015.04.06-02.18.56:607][ 94]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Floor6)
+[2015.04.06-02.18.57:530][154]Cmd: TRANSACTION UNDO
+[2015.04.06-02.18.57:530][154]LogEditorTransaction: Undo Clicking on Actors
+[2015.04.06-02.18.57:991][179]Cmd: TRANSACTION UNDO
+[2015.04.06-02.18.57:992][179]LogEditorTransaction: Undo Clicking Background
+[2015.04.06-02.18.58:542][206]Cmd: TRANSACTION UNDO
+[2015.04.06-02.18.58:543][206]LogEditorTransaction: Undo Clicking on Actors
+[2015.04.06-02.18.59:077][257]Cmd: TRANSACTION UNDO
+[2015.04.06-02.18.59:077][257]LogEditorTransaction: Undo Clicking Background
+[2015.04.06-02.19.17:610][812]Cmd: TRANSACTION UNDO
+[2015.04.06-02.19.17:610][812]LogEditorTransaction: Undo Select Brush Surface
+[2015.04.06-02.19.26:338][421]LogEditorViewport: Clicking Background
+[2015.04.06-02.19.42:434][  7]LogTexture:Display: Building textures: T_Ground_Grass_D (AutoDXT)
+[2015.04.06-02.19.44:948][  7]LogTexture:Display: Building textures: T_Ground_Grass_N (BC5)
+[2015.04.06-02.19.45:397][  7]LogMaterial: Missing cached shader map for material M_Ground_Grass, compiling. 
+[2015.04.06-02.19.46:441][115]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Floor6)
+[2015.04.06-02.19.47:101][144]LogEditorViewport: Clicking Background
+[2015.04.06-02.19.53:814][790]LogTexture:Display: Building textures: T_Rock_Sandstone_D (AutoDXT)
+[2015.04.06-02.19.56:215][790]LogTexture:Display: Building textures: T_Rock_Sandstone_N (BC5)
+[2015.04.06-02.19.56:640][790]LogMaterial: Missing cached shader map for material M_Rock_Sandstone, compiling. 
+[2015.04.06-02.19.56:694][790]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_WallLeft6)
+[2015.04.06-02.19.58:095][885]LogEditorViewport: Clicking Background
+[2015.04.06-02.20.14:736][447]Cmd: DELETE
+[2015.04.06-02.20.14:736][447]Cmd: ACTOR DELETE
+[2015.04.06-02.20.14:737][447]LogEditorActor: Deleted Actor: Pawn
+[2015.04.06-02.20.14:748][447]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2015.04.06-02.20.19:310][943]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Props'
+[2015.04.06-02.20.25:065][603]LogStaticMesh: Building static mesh SM_Rock...
+[2015.04.06-02.20.25:141][603]LogStaticMesh: Built static mesh [76.217468ms] /Game/StarterContent/Props/SM_Rock.SM_Rock
+[2015.04.06-02.20.25:164][603]LogActorFactory: Actor Factory created SM_Rock
+[2015.04.06-02.20.25:991][687]LogActorFactory: Actor Factory created SM_Rock
+[2015.04.06-02.20.39:813][143]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Floor6)
+[2015.04.06-02.20.41:052][256]LogActorFactory: Actor Factory created SM_Rock
+[2015.04.06-02.20.42:060][343]LogActorFactory: Actor Factory created SM_Rock
+[2015.04.06-02.21.08:531][964]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight4)
+[2015.04.06-02.21.12:857][378]LogEditorViewport: Clicking Background
+[2015.04.06-02.21.19:187][ 89]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CornellBox" FILE="../../../../../../Users/CS210/Documents/Unreal Projects/HelloVR_BaenaJoseph/Content/CornellBox.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.04.06-02.21.19:321][ 89]LogSavePackage: Save=103.659019ms
+[2015.04.06-02.21.19:321][ 89]LogSavePackage: Moving '../../../../../../Users/CS210/Documents/Unreal Projects/HelloVR_BaenaJoseph/Saved/CornellBoxBE88527246E1AA3CBEEA7982CB34A36F.tmp' to '../../../../../../Users/CS210/Documents/Unreal Projects/HelloVR_BaenaJoseph/Content/CornellBox.umap'
+[2015.04.06-02.21.22:588][466]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Architecture'
+[2015.04.06-02.21.23:685][588]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Materials'
+[2015.04.06-02.21.53:500][457]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Shapes'
+[2015.04.06-02.21.57:840][851]LogStaticMesh: Building static mesh Shape_Tube...
+[2015.04.06-02.21.57:954][851]LogStaticMesh: Built static mesh [114.650131ms] /Game/StarterContent/Shapes/Shape_Tube.Shape_Tube
+[2015.04.06-02.21.58:009][852]LogActorFactory: Actor Factory created Shape_Tube
+[2015.04.06-02.21.58:604][911]LogActorFactory: Actor Factory created Shape_Tube
+[2015.04.06-02.22.36:338][989]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Tube)
+[2015.04.06-02.22.37:111][ 66]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Floor7)
+[2015.04.06-02.22.38:359][200]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Tube)
+[2015.04.06-02.24.19:140][137]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Audio'
+[2015.04.06-02.24.19:945][182]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/HDRI'
+[2015.04.06-02.24.20:614][252]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Maps'
+[2015.04.06-02.24.21:490][346]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Materials'
+[2015.04.06-02.24.23:607][501]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Tube)
+[2015.04.06-02.24.28:904][935]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Floor7)
+[2015.04.06-02.24.30:533][ 78]LogEditorViewport: Clicking Background
+[2015.04.06-02.24.37:237][834]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CornellBox" FILE="../../../../../../Users/CS210/Documents/Unreal Projects/HelloVR_BaenaJoseph/Content/CornellBox.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.04.06-02.24.37:348][834]LogSavePackage: Save=88.767410ms
+[2015.04.06-02.24.37:348][834]LogSavePackage: Moving '../../../../../../Users/CS210/Documents/Unreal Projects/HelloVR_BaenaJoseph/Saved/CornellBoxF9D4BB1141C2D5346BEB779B48C85C6E.tmp' to '../../../../../../Users/CS210/Documents/Unreal Projects/HelloVR_BaenaJoseph/Content/CornellBox.umap'
+[2015.04.06-02.24.40:518][159]MapCheck: New page: Map Check
+[2015.04.06-02.24.40:527][159]Cmd: MAP REBUILD ALLVISIBLE
+[2015.04.06-02.24.40:528][159]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2015.04.06-02.24.40:566][159]LightingResults: New page: Lighting Build - Apr 5, 2015, 12:24:40 PM
+[2015.04.06-02.24.45:159][159]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2015.04.06-02.24.45:160][159]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2015.04.06-02.24.45:160][159]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2015.04.06-02.24.45:160][159]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2015.04.06-02.24.45:160][159]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2015.04.06-02.24.45:160][159]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2015.04.06-02.24.45:256][159]LogEditorBuildUtils: Build time 0:00:04
+[2015.04.06-02.24.45:259][159]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Ground_Grass, compiling. 
+[2015.04.06-02.24.45:262][159]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Ground_Grass, compiling. 
+[2015.04.06-02.24.45:265][159]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Wood_Floor_Walnut_Polished, compiling. 
+[2015.04.06-02.24.45:268][159]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Wood_Floor_Walnut_Polished, compiling. 
+[2015.04.06-02.24.45:293][160]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Metal_Steel, compiling. 
+[2015.04.06-02.24.45:299][160]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Metal_Steel, compiling. 
+[2015.04.06-02.24.45:319][161]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Rock_Sandstone, compiling. 
+[2015.04.06-02.24.45:322][161]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Rock_Sandstone, compiling. 
+[2015.04.06-02.24.48:335][308]Job is a success!
+[2015.04.06-02.24.48:460][309]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2015.04.06-02.24.48:535][309]LogTexture:Display: Building textures: LQ_Lightmap_1_4 (DXT1)
+[2015.04.06-02.24.48:539][309]LogTexture:Display: Building textures: HQ_Lightmap1_4 (AutoDXT)
+[2015.04.06-02.24.48:550][309]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1)
+[2015.04.06-02.24.48:563][309]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT)
+[2015.04.06-02.24.48:583][309]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
+[2015.04.06-02.24.48:586][309]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
+[2015.04.06-02.24.48:594][309]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2015.04.06-02.24.48:617][309]LogTexture:Display: Building textures: ShadowMapTexture2D_4 (BGRA8)
+[2015.04.06-02.24.48:620][309]LogTexture:Display: Building textures: ShadowMapTexture2D_5 (BGRA8)
+[2015.04.06-02.24.48:626][309]LogTexture:Display: Building textures: ShadowMapTexture2D_6 (BGRA8)
+[2015.04.06-02.24.48:631][309]LogTexture:Display: Building textures: ShadowMapTexture2D_7 (BGRA8)
+[2015.04.06-02.24.48:714][309]Lightmass on CS210-WS-07: 1.54 sec total, 135 ms importing, 6 ms setup, 495 ms photons, 894 ms processing, 0 ms extra exporting [62/62 mappings]. Threads: 9.20 sec total, 3.01 sec processing.
+[2015.04.06-02.24.48:813][309]LogStaticLightingSystem: Illumination: 8.23 sec (243 ms encoding lightmaps)
+[2015.04.06-02.24.48:813][309]LogStaticLightingSystem: Lightmap texture memory:  0.2 MB (0.2 MB streaming, 0.0 MB non-streaming), 8 textures
+[2015.04.06-02.24.48:813][309]LogStaticLightingSystem: Shadowmap texture memory: 1.0 MB (0.9 MB streaming, 0.1 MB non-streaming), 8 textures
+[2015.04.06-02.24.49:159][310]Cmd: MAP CHECK NOTIFYRESULTS
+[2015.04.06-02.24.49:159][310]MapCheck: New page: CornellBox - Apr 5, 2015, 12:24:49 PM
+[2015.04.06-02.24.49:160][310]MapCheck:Warning: Warning SM_Ceiling3 'Shape_Cube' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.04.06-02.24.49:161][310]MapCheck:Warning: Warning SM_Ceiling2 'Shape_Cube' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.04.06-02.24.49:161][310]MapCheck:Warning: Warning SM_Ceiling 'Shape_Cube' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.04.06-02.24.49:161][310]MapCheck:Warning: Warning SM_Ceiling4 'Shape_Cube' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.04.06-02.24.49:162][310]MapCheck:Warning: Warning SM_Ceiling5 'Shape_Cube' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.04.06-02.24.49:162][310]MapCheck:Warning: Warning SM_Ceiling6 'Shape_Cube' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.04.06-02.24.49:162][310]MapCheck:Warning: Warning SM_Ceiling7 'Shape_Cube' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.04.06-02.24.49:162][310]MapCheck:Warning: Warning SM_Floor 'Shape_Cube' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.04.06-02.24.49:163][310]MapCheck:Warning: Warning SM_Floor2 'Shape_Cube' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.04.06-02.24.49:163][310]MapCheck:Warning: Warning SM_Floor3_8 'Shape_Cube' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.04.06-02.24.49:163][310]MapCheck:Warning: Warning SM_Floor4 'Shape_Cube' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.04.06-02.24.49:163][310]MapCheck:Warning: Warning SM_Floor5 'Shape_Cube' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.04.06-02.24.49:163][310]MapCheck:Warning: Warning SM_Floor6 'Shape_Cube' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.04.06-02.24.49:164][310]MapCheck:Warning: Warning SM_Floor7 'Shape_Cube' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.04.06-02.24.49:164][310]MapCheck:Warning: Warning SM_WallBack 'Shape_Cube' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.04.06-02.24.49:165][310]MapCheck:Warning: Warning SM_WallBack2 'Shape_Cube' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.04.06-02.24.49:165][310]MapCheck:Warning: Warning SM_WallBack3 'Shape_Cube' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.04.06-02.24.49:165][310]MapCheck:Warning: Warning SM_WallBack4 'Shape_Cube' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.04.06-02.24.49:166][310]MapCheck:Warning: Warning SM_WallBack5 'Shape_Cube' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.04.06-02.24.49:166][310]MapCheck:Warning: Warning SM_WallBack6 'Shape_Cube' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.04.06-02.24.49:166][310]MapCheck:Warning: Warning SM_WallBack7 'Shape_Cube' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.04.06-02.24.49:166][310]MapCheck:Warning: Warning SM_WallLeft 'Shape_Cube' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.04.06-02.24.49:167][310]MapCheck:Warning: Warning SM_WallLeft2 'Shape_Cube' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.04.06-02.24.49:167][310]MapCheck:Warning: Warning SM_WallLeft3 'Shape_Cube' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.04.06-02.24.49:167][310]MapCheck:Warning: Warning SM_WallLeft4 'Shape_Cube' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.04.06-02.24.49:168][310]MapCheck:Warning: Warning SM_WallLeft5 'Shape_Cube' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.04.06-02.24.49:168][310]MapCheck:Warning: Warning SM_WallLeft6 'Shape_Cube' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.04.06-02.24.49:168][310]MapCheck:Warning: Warning SM_WallLeft7 'Shape_Cube' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.04.06-02.24.49:169][310]MapCheck:Warning: Warning SM_WallRight 'Shape_Cube' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.04.06-02.24.49:169][310]MapCheck:Warning: Warning SM_WallRight2 'Shape_Cube' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.04.06-02.24.49:169][310]MapCheck:Warning: Warning SM_WallRight3 'Shape_Cube' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.04.06-02.24.49:169][310]MapCheck:Warning: Warning SM_WallRight4 'Shape_Cube' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.04.06-02.24.49:170][310]MapCheck:Warning: Warning SM_WallRight5 'Shape_Cube' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.04.06-02.24.49:170][310]MapCheck:Warning: Warning SM_WallRight6 'Shape_Cube' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.04.06-02.24.49:170][310]MapCheck:Warning: Warning SM_WallRight7 'Shape_Cube' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.04.06-02.24.49:288][310]MapCheck: Info Map check complete: 0 Error(s), 35 Warning(s), took 128.374ms to complete.
+[2015.04.06-02.24.51:158][431]LogSavePackage: Save=130.675720ms
+[2015.04.06-02.24.51:158][431]LogSavePackage: Moving '../../../../../../Users/CS210/Documents/Unreal Projects/HelloVR_BaenaJoseph/Saved/UEDPCCornellBox6A276DA3453571D0E2A5D6960AC3117D.tmp' to '../../../../../../Users/CS210/Documents/Unreal Projects/HelloVR_BaenaJoseph/Saved/Autosaves/Game/UEDPCCornellBox.umap'
+[2015.04.06-02.26.49:030][908]OCULUS: [From Service] {ERR-018} [HMD] WARNING: Modulation stop unverified!
+[2015.04.06-02.26.55:209][189]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Rock)
+[2015.04.06-02.27.00:682][613]LogEditorViewport: Clicking Background
+[2015.04.06-02.27.05:398][ 12]LogEditorViewport: Clicking Background
+[2015.04.06-02.27.07:122][193]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_WallBack7)
+[2015.04.06-02.27.07:902][251]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Tube)
+[2015.04.06-02.27.11:911][577]LogEditorViewport: Clicking Background
+[2015.04.06-02.27.12:960][669]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CornellBox" FILE="../../../../../../Users/CS210/Documents/Unreal Projects/HelloVR_BaenaJoseph/Content/CornellBox.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.04.06-02.27.13:104][669]LogSavePackage: Save=120.753578ms
+[2015.04.06-02.27.13:104][669]LogSavePackage: Moving '../../../../../../Users/CS210/Documents/Unreal Projects/HelloVR_BaenaJoseph/Saved/CornellBox8404FA9747766D0B85D9EA8B385B8339.tmp' to '../../../../../../Users/CS210/Documents/Unreal Projects/HelloVR_BaenaJoseph/Content/CornellBox.umap'
+[2015.04.06-02.27.13:137][669]LogFileHelpers: Saving map 'CornellBox' took 0.283
+[2015.04.06-02.27.57:436][977]LogFbx:Warning: FBX version number for this version of the FBX SDK is 7.4.0
+
+
+[2015.04.06-02.28.03:605][585]Cmd: QUIT_EDITOR
+[2015.04.06-02.28.03:870][585]LogHMD: Oculus shutdown.
+[2015.04.06-02.28.04:043][585]LogExit: Preparing to exit.
+[2015.04.06-02.28.04:878][585]LogExit: Editor shut down
+[2015.04.06-02.28.04:879][585]LogExit: Transaction tracking system shut down
+[2015.04.06-02.28.04:881][585]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000DABD300
+[2015.04.06-02.28.04:882][585]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001612D260
+[2015.04.06-02.28.04:882][585]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000015F20FE0
+[2015.04.06-02.28.04:882][585]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000015F20E00
+[2015.04.06-02.28.04:937][585]LogExit: Object subsystem successfully closed.
+[2015.04.06-02.28.04:996][585]LogModuleManager: Shutting down and abandoning module CrashTracker (177)
+[2015.04.06-02.28.04:996][585]LogModuleManager: Shutting down and abandoning module SuperSearch (176)
+[2015.04.06-02.28.04:996][585]LogModuleManager: Shutting down and abandoning module SceneOutliner (175)
+[2015.04.06-02.28.04:996][585]LogModuleManager: Shutting down and abandoning module EditorWidgets (174)
+[2015.04.06-02.28.04:996][585]LogModuleManager: Shutting down and abandoning module CollectionManager (173)
+[2015.04.06-02.28.04:996][585]LogModuleManager: Shutting down and abandoning module StatsViewer (172)
+[2015.04.06-02.28.04:996][585]LogModuleManager: Shutting down and abandoning module FoliageEdit (171)
+[2015.04.06-02.28.04:996][585]LogModuleManager: Shutting down and abandoning module LandscapeEditor (170)
+[2015.04.06-02.28.04:996][585]LogModuleManager: Shutting down and abandoning module MeshPaint (169)
+[2015.04.06-02.28.04:996][585]LogModuleManager: Shutting down and abandoning module ActorPickerMode (168)
+[2015.04.06-02.28.04:996][585]LogModuleManager: Shutting down and abandoning module GeometryMode (167)
+[2015.04.06-02.28.04:996][585]LogModuleManager: Shutting down and abandoning module TextureAlignMode (166)
+[2015.04.06-02.28.04:996][585]LogModuleManager: Shutting down and abandoning module BspMode (165)
+[2015.04.06-02.28.04:996][585]LogModuleManager: Shutting down and abandoning module PlacementMode (164)
+[2015.04.06-02.28.04:996][585]LogModuleManager: Shutting down and abandoning module AutomationWorker (163)
+[2015.04.06-02.28.04:996][585]LogModuleManager: Shutting down and abandoning module CharacterAI (162)
+[2015.04.06-02.28.04:996][585]LogModuleManager: Shutting down and abandoning module SmartSnapping (161)
+[2015.04.06-02.28.04:996][585]LogModuleManager: Shutting down and abandoning module ViewportSnapping (160)
+[2015.04.06-02.28.04:996][585]LogModuleManager: Shutting down and abandoning module LogVisualizer (159)
+[2015.04.06-02.28.04:996][585]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (158)
+[2015.04.06-02.28.04:996][585]LogModuleManager: Shutting down and abandoning module IntroTutorials (157)
+[2015.04.06-02.28.04:996][585]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (156)
+[2015.04.06-02.28.04:996][585]LogModuleManager: Shutting down and abandoning module HardwareTargeting (155)
+[2015.04.06-02.28.04:996][585]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (154)
+[2015.04.06-02.28.04:996][585]LogModuleManager: Shutting down and abandoning module UndoHistory (153)
+[2015.04.06-02.28.04:996][585]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (152)
+[2015.04.06-02.28.04:996][585]LogModuleManager: Shutting down and abandoning module UserFeedback (151)
+[2015.04.06-02.28.04:996][585]LogModuleManager: Shutting down and abandoning module XmlParser (150)
+[2015.04.06-02.28.04:996][585]LogModuleManager: Shutting down and abandoning module Blutility (149)
+[2015.04.06-02.28.04:996][585]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (148)
+[2015.04.06-02.28.04:996][585]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (147)
+[2015.04.06-02.28.04:996][585]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (146)
+[2015.04.06-02.28.05:752][585]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (145)
+[2015.04.06-02.28.05:752][585]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (144)
+[2015.04.06-02.28.05:752][585]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (143)
+[2015.04.06-02.28.05:752][585]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (142)
+[2015.04.06-02.28.05:752][585]LogModuleManager: Shutting down and abandoning module InputBindingEditor (141)
+[2015.04.06-02.28.05:752][585]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (140)
+[2015.04.06-02.28.05:753][585]LogModuleManager: Shutting down and abandoning module SettingsEditor (139)
+[2015.04.06-02.28.05:753][585]LogModuleManager: Shutting down and abandoning module ProjectLauncher (138)
+[2015.04.06-02.28.05:753][585]LogModuleManager: Shutting down and abandoning module SessionFrontend (137)
+[2015.04.06-02.28.05:753][585]LogModuleManager: Shutting down and abandoning module ProfilerClient (136)
+[2015.04.06-02.28.05:753][585]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (135)
+[2015.04.06-02.28.05:753][585]LogModuleManager: Shutting down and abandoning module DeviceManager (134)
+[2015.04.06-02.28.05:753][585]LogModuleManager: Shutting down and abandoning module AutomationController (133)
+[2015.04.06-02.28.05:753][585]LogModuleManager: Shutting down and abandoning module AutomationWindow (132)
+[2015.04.06-02.28.05:753][585]LogModuleManager: Shutting down and abandoning module Layers (131)
+[2015.04.06-02.28.05:753][585]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (130)
+[2015.04.06-02.28.05:753][585]LogModuleManager: Shutting down and abandoning module DetailCustomizations (129)
+[2015.04.06-02.28.05:753][585]LogModuleManager: Shutting down and abandoning module PackagesDialog (128)
+[2015.04.06-02.28.05:754][585]LogModuleManager: Shutting down and abandoning module AssetRegistry (127)
+[2015.04.06-02.28.05:850][585]LogModuleManager: Shutting down and abandoning module Persona (126)
+[2015.04.06-02.28.05:850][585]LogModuleManager: Shutting down and abandoning module SlateReflector (125)
+[2015.04.06-02.28.05:850][585]LogModuleManager: Shutting down and abandoning module LevelEditor (124)
+[2015.04.06-02.28.05:852][585]LogModuleManager: Shutting down and abandoning module Kismet (123)
+[2015.04.06-02.28.05:852][585]LogModuleManager: Shutting down and abandoning module GraphEditor (122)
+[2015.04.06-02.28.05:852][585]LogModuleManager: Shutting down and abandoning module ClassViewer (121)
+[2015.04.06-02.28.05:852][585]LogModuleManager: Shutting down and abandoning module Toolbox (120)
+[2015.04.06-02.28.05:852][585]LogModuleManager: Shutting down and abandoning module ModuleUI (119)
+[2015.04.06-02.28.05:852][585]LogModuleManager: Shutting down and abandoning module MovieSceneTools (118)
+[2015.04.06-02.28.05:852][585]LogModuleManager: Shutting down and abandoning module OutputLog (117)
+[2015.04.06-02.28.05:852][585]LogModuleManager: Shutting down and abandoning module GammaUI (116)
+[2015.04.06-02.28.05:852][585]LogModuleManager: Shutting down and abandoning module Documentation (115)
+[2015.04.06-02.28.05:852][585]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (114)
+[2015.04.06-02.28.05:853][585]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (113)
+[2015.04.06-02.28.05:853][585]LogModuleManager: Shutting down and abandoning module HTTP (112)
+[2015.04.06-02.28.05:853][585]LogModuleManager: Shutting down and abandoning module AnalyticsET (111)
+[2015.04.06-02.28.05:853][585]LogModuleManager: Shutting down and abandoning module Analytics (110)
+[2015.04.06-02.28.05:853][585]LogModuleManager: Shutting down and abandoning module AITestSuite (109)
+[2015.04.06-02.28.05:853][585]LogModuleManager: Shutting down and abandoning module GameplayDebugger (108)
+[2015.04.06-02.28.05:853][585]LogModuleManager: Shutting down and abandoning module AIModule (107)
+[2015.04.06-02.28.05:853][585]LogModuleManager: Shutting down and abandoning module ProfilerService (106)
+[2015.04.06-02.28.05:902][585]LogModuleManager: Shutting down and abandoning module TaskGraph (105)
+[2015.04.06-02.28.05:902][585]LogModuleManager: Shutting down and abandoning module SlateRemote (104)
+[2015.04.06-02.28.05:902][585]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (103)
+[2015.04.06-02.28.05:902][585]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (102)
+[2015.04.06-02.28.05:902][585]LogModuleManager: Shutting down and abandoning module CableComponent (101)
+[2015.04.06-02.28.05:902][585]LogModuleManager: Shutting down and abandoning module MessagingDebugger (100)
+[2015.04.06-02.28.05:902][585]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (99)
+[2015.04.06-02.28.05:902][585]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (98)
+[2015.04.06-02.28.05:902][585]LogModuleManager: Shutting down and abandoning module PluginsEditor (97)
+[2015.04.06-02.28.05:902][585]LogModuleManager: Shutting down and abandoning module MainFrame (96)
+[2015.04.06-02.28.05:902][585]LogModuleManager: Shutting down and abandoning module EpicSurvey (95)
+[2015.04.06-02.28.05:902][585]LogModuleManager: Shutting down and abandoning module DesktopPlatform (94)
+[2015.04.06-02.28.05:902][585]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (93)
+[2015.04.06-02.28.05:903][585]LogModuleManager: Shutting down and abandoning module HotReload (92)
+[2015.04.06-02.28.05:903][585]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (91)
+[2015.04.06-02.28.05:903][585]LogModuleManager: Shutting down and abandoning module UObjectPlugin (90)
+[2015.04.06-02.28.05:903][585]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (89)
+[2015.04.06-02.28.05:903][585]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (88)
+[2015.04.06-02.28.05:903][585]LogModuleManager: Shutting down and abandoning module SourceControl (87)
+[2015.04.06-02.28.05:903][585]LogModuleManager: Shutting down and abandoning module GitSourceControl (86)
+[2015.04.06-02.28.05:903][585]LogModuleManager: Shutting down and abandoning module BlankPlugin (85)
+[2015.04.06-02.28.05:903][585]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (84)
+[2015.04.06-02.28.05:903][585]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (83)
+[2015.04.06-02.28.05:903][585]LogModuleManager: Shutting down and abandoning module ContentBrowser (82)
+[2015.04.06-02.28.05:904][585]LogModuleManager: Shutting down and abandoning module Paper2DEditor (81)
+[2015.04.06-02.28.05:904][585]LogModuleManager: Shutting down and abandoning module ScriptPlugin (80)
+[2015.04.06-02.28.05:904][585]LogModuleManager: Shutting down and abandoning module UdpMessaging (79)
+[2015.04.06-02.28.06:004][585]LogModuleManager: Shutting down and abandoning module Paper2D (78)
+[2015.04.06-02.28.06:004][585]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (77)
+[2015.04.06-02.28.06:010][585]LogModuleManager: Shutting down and abandoning module Media (76)
+[2015.04.06-02.28.06:010][585]LogModuleManager: Shutting down and abandoning module WmfMedia (75)
+[2015.04.06-02.28.06:010][585]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
+[2015.04.06-02.28.06:010][585]LogModuleManager: Shutting down and abandoning module PropertyEditor (73)
+[2015.04.06-02.28.06:011][585]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (72)
+[2015.04.06-02.28.06:011][585]LogModuleManager: Shutting down and abandoning module FunctionalTesting (71)
+[2015.04.06-02.28.06:011][585]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (70)
+[2015.04.06-02.28.06:011][585]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (69)
+[2015.04.06-02.28.06:011][585]LogModuleManager: Shutting down and abandoning module MessageLog (68)
+[2015.04.06-02.28.06:011][585]LogModuleManager: Shutting down and abandoning module Sequencer (67)
+[2015.04.06-02.28.06:011][585]LogModuleManager: Shutting down and abandoning module AssetTools (66)
+[2015.04.06-02.28.06:011][585]LogModuleManager: Shutting down and abandoning module UMGEditor (65)
+[2015.04.06-02.28.06:011][585]LogModuleManager: Shutting down and abandoning module UMG (64)
+[2015.04.06-02.28.06:011][585]LogModuleManager: Shutting down and abandoning module Slate (63)
+[2015.04.06-02.28.06:011][585]LogModuleManager: Shutting down and abandoning module EditorStyle (62)
+[2015.04.06-02.28.06:018][585]LogModuleManager: Shutting down and abandoning module SessionServices (61)
+[2015.04.06-02.28.06:019][585]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (60)
+[2015.04.06-02.28.06:019][585]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (59)
+[2015.04.06-02.28.06:019][585]LogModuleManager: Shutting down and abandoning module XAudio2 (58)
+[2015.04.06-02.28.06:019][585]LogModuleManager: Shutting down and abandoning module Networking (56)
+[2015.04.06-02.28.06:019][585]LogModuleManager: Shutting down and abandoning module Core (55)
+[2015.04.06-02.28.06:019][585]LogModuleManager: Shutting down and abandoning module KismetCompiler (54)
+[2015.04.06-02.28.06:019][585]LogModuleManager: Shutting down and abandoning module PhysXFormats (53)
+[2015.04.06-02.28.06:019][585]LogModuleManager: Shutting down and abandoning module MeshUtilities (52)
+[2015.04.06-02.28.06:019][585]LogModuleManager: Shutting down and abandoning module DerivedDataCache (51)
+[2015.04.06-02.28.06:114][585]LogDerivedDataCache: Shutdown
+[2015.04.06-02.28.06:114][585]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (50)
+[2015.04.06-02.28.06:114][585]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (49)
+[2015.04.06-02.28.06:114][585]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (48)
+[2015.04.06-02.28.06:114][585]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (47)
+[2015.04.06-02.28.06:114][585]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (46)
+[2015.04.06-02.28.06:114][585]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (45)
+[2015.04.06-02.28.06:114][585]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (44)
+[2015.04.06-02.28.06:114][585]LogModuleManager: Shutting down and abandoning module ImageWrapper (43)
+[2015.04.06-02.28.06:114][585]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (42)
+[2015.04.06-02.28.06:114][585]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (41)
+[2015.04.06-02.28.06:114][585]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (40)
+[2015.04.06-02.28.06:114][585]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (39)
+[2015.04.06-02.28.06:114][585]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (38)
+[2015.04.06-02.28.06:114][585]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (37)
+[2015.04.06-02.28.06:114][585]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (36)
+[2015.04.06-02.28.06:114][585]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (35)
+[2015.04.06-02.28.06:114][585]LogModuleManager: Shutting down and abandoning module Messaging (34)
+[2015.04.06-02.28.06:114][585]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (33)
+[2015.04.06-02.28.06:114][585]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (32)
+[2015.04.06-02.28.06:114][585]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (31)
+[2015.04.06-02.28.06:114][585]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (30)
+[2015.04.06-02.28.06:114][585]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (29)
+[2015.04.06-02.28.06:114][585]LogModuleManager: Shutting down and abandoning module Android_ES31TargetPlatform (28)
+[2015.04.06-02.28.06:114][585]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (27)
+[2015.04.06-02.28.06:114][585]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (26)
+[2015.04.06-02.28.06:114][585]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (25)
+[2015.04.06-02.28.06:114][585]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (24)
+[2015.04.06-02.28.06:114][585]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (23)
+[2015.04.06-02.28.06:114][585]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (22)
+[2015.04.06-02.28.06:114][585]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (21)
+[2015.04.06-02.28.06:114][585]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
+[2015.04.06-02.28.06:115][585]LogModuleManager: Shutting down and abandoning module InputCore (19)
+[2015.04.06-02.28.06:115][585]LogModuleManager: Shutting down and abandoning module Settings (18)
+[2015.04.06-02.28.06:115][585]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (16)
+[2015.04.06-02.28.06:115][585]LogModuleManager: Shutting down and abandoning module OculusRift (15)
+[2015.04.06-02.28.06:115][585]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2015.04.06-02.28.06:115][585]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2015.04.06-02.28.06:115][585]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2015.04.06-02.28.06:115][585]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2015.04.06-02.28.06:115][585]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2015.04.06-02.28.06:118][585]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2015.04.06-02.28.06:118][585]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2015.04.06-02.28.06:118][585]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.04.06-02.28.06:118][585]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.04.06-02.28.06:118][585]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.04.06-02.28.06:118][585]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.04.06-02.28.06:118][585]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.04.06-02.28.06:118][585]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.04.06-02.28.06:118][585]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.04.06-02.28.06:119][585]LogExit: Exiting.
+[2015.04.06-02.28.06:157][585]Log file closed, 04/05/15 19:28:06
